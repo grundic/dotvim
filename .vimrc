@@ -2,6 +2,9 @@
 syntax on
 colorscheme molokai
 
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 " Turn on line numbers:
 set number
 " Toggle line numbers and fold column for easy copying:
